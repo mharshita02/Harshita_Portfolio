@@ -1,3 +1,2 @@
-# Kuldeep Tripathi
-
-## Frontend Developer - Portfolio
+# Harshita Mishra
+## Fresher - Portfolio

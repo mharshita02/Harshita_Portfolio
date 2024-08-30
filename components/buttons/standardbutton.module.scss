@@ -1,0 +1,26 @@
+.standardButton {
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  padding: 1.25rem 4rem;
+
+  background: var(--brand-1);
+  color: var(--text);
+  font-size: var(--text-md);
+  border-radius: 4px;
+
+  position: relative;
+  z-index: 20;
+
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.standardButton:hover {
+  opacity: 0.8;
+  background-color: var(--bg-opaque);
+  border-color: var(--brand-1);
+  color: var(--brand-1);
+}

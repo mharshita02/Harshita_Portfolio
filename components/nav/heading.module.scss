@@ -1,0 +1,39 @@
+.heading {
+  height: calc(45px + 3.6rem);
+  padding: 1rem 3.6rem;
+  padding-inline-start: calc(3.6rem + 60px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg-opaque);
+  backdrop-filter: blur(12px);
+  // background-color: olive;
+
+  font-size: var(--text-md);
+  font-weight: bold;
+  // background-color: red;
+
+  @media (max-width: 800px) {
+    padding: 0.5rem 2.4rem;
+    padding-inline-start: calc(2.4rem + 60px);
+
+    // background-color: purple;
+    max-width: 100%;
+  }
+}
+
+.headingButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  > a {
+    height: 46px;
+  }
+}

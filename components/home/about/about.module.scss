@@ -1,0 +1,65 @@
+.about {
+  display: grid;
+  grid-template-columns: 2fr 300px;
+  gap: 4rem;
+  font-family: var(--font-inter);
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aboutText {
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.linksText {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  font-size: var(--text-sm);
+  color: var(--brand-1);
+}
+
+.highlightFirstLetter:first-letter {
+  background: var(--background-light);
+  padding: 1rem;
+  border-radius: 0.4rem;
+
+  font-size: var(--text-md);
+  font-weight: bold;
+  color: var(--brand-1);
+
+  margin-right: 0.6rem;
+
+  float: left;
+}
+
+.statColumn {
+  h4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.4rem;
+    span {
+      font-size: var(--text-md);
+      font-weight: bold;
+      position: relative;
+      margin-left: 0.8rem;
+    }
+  }
+}
+
+.statGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 4.8rem;
+}
