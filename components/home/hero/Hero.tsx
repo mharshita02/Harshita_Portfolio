@@ -17,11 +17,11 @@ export const Hero = () => {
             </h1>
           </Reveal>
           <Reveal>
-            <p className={styles.aboutCopy}>
-              I am a Recent Graduate in Information Technology from Gautam Buddha
-              University, offering a Basic foundation in Java, HTML,
-              CSS, and JavaScript, coupled with hands-on experience in software
-              development through projects.
+             <p className={styles.aboutCopy}>
+              I am a Recent Graduate in Information Technology from
+               Gautam Buddha University, offering a Basic foundation
+              in Java, HTML, CSS, and JavaScript, coupled with 
+              hands-on experience in software development through projects.
               Let&apos;s collaborate to create impactful digital solutions!
             </p>
           </Reveal>
